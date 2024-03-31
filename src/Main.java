@@ -14,6 +14,8 @@ public class Main {
     * The requirements state to return a 1-indexed array, but arrays in Java are 0-indexed with no way to change this
     * behavior. We'll instead treat the input array as 1-indexed and increment the returned index values, which is what
     * the provided example seems to suggest.
+    *
+    * ~Justin Priester
     */
 
     public int[] twoSumSorted(int[] integers, int target) {
